@@ -1,0 +1,232 @@
+                                                                    .fancybox-content {
+                                                                    max-width: 100%;
+                                                                }
+                                                                
+                                                                .fancybox-slide--image {
+                                                                    background: black!important;
+                                                                }
+                                                                
+                                                                .imglist a img {
+                                                                    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .33);
+                                                                    border-radius: 3px;
+                                                                    transition: .3s all ease-in-out
+                                                                }
+                                                                
+                                                                .imglist a img:hover {
+                                                                    box-shadow: 0 0 0 3px #ee5a36;
+                                                                }
+                                                                
+                                                                .fancybox-button.fancybox-button--info,
+                                                                .fancybox-button.fancybox-button--info:hover {
+                                                                    color: #F9C14B;
+                                                                    width: 93px;
+                                                                    font-weight: 700
+                                                                }
+                                                                
+                                                                .fancybox-navigation .fancybox-button:hover {
+                                                                    color: white;
+                                                                    cursor: pointer;
+                                                                }
+                                                                
+                                                                .fancybox-button.fancybox-button--close,
+                                                                .fancybox-button.fancybox-button--close:hover {
+                                                                    color: #F9C14B
+                                                                }
+                                                                
+                                                                .portfolioFilter a {
+                                                                    padding: .5rem 1rem!important
+                                                                }
+                                                                
+                                                                .portfolioFilter a.current {
+                                                                    background: #ee5a36;
+                                                                    color: #f9f9f9;
+                                                                    border-color: black;
+                                                                }
+                                                                
+                                                                .portfolioFilter a:hover {
+                                                                    background: #ee5a36;
+                                                                    border-color: black;
+                                                                }
+                                                                
+                                                                .portfolioContainer .am-thuc,
+                                                                .thoi-trang,
+                                                                .gym,
+                                                                .design,
+                                                                .su-kien,
+                                                                .giao-duc,
+                                                                .bat-dong-san,
+                                                                .su-kien,
+                                                                .dien-tu,
+                                                                .ban-hang,
+                                                                .am-thuc,
+                                                                .du-lich {
+                                                                    width: calc(48% - .5rem)!important;
+                                                                    margin: .5rem
+                                                                }
+                                                                
+                                                                .portfolioContainer .am-thuc img {
+                                                                    width: 100%!important
+                                                                }
+                                                                
+                                                                @media only screen and (max-width: 576px) {
+                                                                    .portfolioContainer .am-thuc,
+                                                                    .thoi-trang,
+                                                                    .gym,
+                                                                    .design,
+                                                                    .su-kien,
+                                                                    .giao-duc,
+                                                                    .bat-dong-san,
+                                                                    .su-kien,
+                                                                    .dien-tu,
+                                                                    .ban-hang,
+                                                                    .am-thuc,
+                                                                    .du-lich {
+                                                                        width: calc(30% - .5rem)!important;
+                                                                        margin: .5rem
+                                                                    }
+                                                                }
+                                                                
+                                                                @media only screen and (min-width: 577px) {
+                                                                    .portfolioContainer .am-thuc,
+                                                                    .thoi-trang,
+                                                                    .gym,
+                                                                    .design,
+                                                                    .su-kien,
+                                                                    .giao-duc,
+                                                                    .bat-dong-san,
+                                                                    .su-kien,
+                                                                    .dien-tu,
+                                                                    .ban-hang,
+                                                                    .am-thuc,
+                                                                    .du-lich {
+                                                                        width: calc(23% - .5rem)!important;
+                                                                        margin: .5rem
+                                                                    }
+                                                                }
+                                                                
+                                                                @media only screen and (min-width: 768px) {
+                                                                    .portfolioContainer .am-thuc,
+                                                                    .thoi-trang,
+                                                                    .gym,
+                                                                    .design,
+                                                                    .su-kien,
+                                                                    .giao-duc,
+                                                                    .bat-dong-san,
+                                                                    .su-kien,
+                                                                    .dien-tu,
+                                                                    .ban-hang,
+                                                                    .am-thuc,
+                                                                    .du-lich {
+                                                                        width: calc(18% - .5rem)!important;
+                                                                        margin: .5rem
+                                                                    }
+                                                                }
+                                                                
+                                                                @media only screen and (min-width: 992px) {
+                                                                    .portfolioContainer .am-thuc,
+                                                                    .thoi-trang,
+                                                                    .gym,
+                                                                    .design,
+                                                                    .su-kien,
+                                                                    .giao-duc,
+                                                                    .bat-dong-san,
+                                                                    .su-kien,
+                                                                    .dien-tu,
+                                                                    .ban-hang,
+                                                                    .am-thuc,
+                                                                    .du-lich {
+                                                                        width: calc(18% - .5rem)!important;
+                                                                        margin: .5rem
+                                                                    }
+                                                                }
+                                                                
+                                                                @media only screen and (min-width: 1200px) {
+                                                                    .portfolioContainer .am-thuc,
+                                                                    .thoi-trang,
+                                                                    .gym,
+                                                                    .design,
+                                                                    .su-kien,
+                                                                    .giao-duc,
+                                                                    .bat-dong-san,
+                                                                    .su-kien,
+                                                                    .dien-tu,
+                                                                    .ban-hang,
+                                                                    .am-thuc,
+                                                                    .du-lich {
+                                                                        width: calc(18% - .5rem)!important;
+                                                                        margin: .5rem
+                                                                    }
+                                                                }
+                                                                
+                                                                .gallery-page .menu {
+                                                                    padding: .5rem 1rem;
+                                                                    background: transparent;
+                                                                    border: 1px solid #ccc;
+                                                                    position: relative;
+                                                                    transition: .4s all ease-in-out;
+                                                                    display: flex;
+                                                                    justify-content: space-between;
+                                                                    align-items: center;
+                                                                }
+                                                                
+                                                                .gallery-page .gallery-list {
+                                                                    margin-top: 2rem;
+                                                                }
+                                                                
+                                                                .gallery-page .menu p {
+                                                                    margin-bottom: 0;
+                                                                }
+                                                                
+                                                                .gallery-page .menu.active {
+                                                                    background: #ee5a36;
+                                                                    color: #fff
+                                                                }
+                                                                
+                                                                .gallery-page .menu i {
+                                                                    transform: rotate(360deg);
+                                                                    transition: .4s all ease-in-out
+                                                                }
+                                                                
+                                                                .gallery-page .menu.active i {
+                                                                    transform: rotate(180deg);
+                                                                    transition: .4s all ease-in-out
+                                                                }
+                                                                
+                                                                @media screen and (min-width: 992px) {
+                                                                    .gallery-page .menu {
+                                                                        display: none;
+                                                                    }
+                                                                    .portfolioFilter {
+                                                                        display: block!important;
+                                                                    }
+                                                                }
+                                                                
+                                                                @media screen and (max-width: 992px) {
+                                                                    .portfolioFilter {
+                                                                        padding: 0;
+                                                                        display: none;
+                                                                    }
+                                                                    .portfolioFilter a {
+                                                                        margin: 0;
+                                                                        text-align: left;
+                                                                        display: block;
+                                                                        border: 0
+                                                                    }
+                                                                }
+                                                                
+                                                                @media only screen and (max-width: 576px) {
+                                                                    .portfolioContainer .am-thuc,
+                                                                    .thoi-trang,
+                                                                    .gym,
+                                                                    .design,
+                                                                    .su-kien,
+                                                                    .giao-duc,
+                                                                    .bat-dong-san,
+                                                                    .su-kien,
+                                                                    .dien-tu,
+                                                                    .ban-hang,
+                                                                    .am-thuc,
+                                                                    .du-lich {
+                                                                        width: calc(50% - 1rem)!important;
+                                                                        margin: .5rem;
+                                                                    }

@@ -1,0 +1,203 @@
+body {
+    font-family: Arial;
+}
+
+a:focus {
+    outline: none;
+}
+
+.portfolioFilter {
+    padding: 15px 0;
+}
+
+.portfolioFilter a {
+    margin-right: 6px;
+    color: #666;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 4px 15px;
+    transition: .3s all ease-in-out;
+    display: inline-block;
+    margin: .3rem
+}
+
+.portfolioFilter a:hover {
+    background: -webkit-linear-gradient(#f12711, #f5af19);
+    color: white
+}
+
+.portfolioFilter a.current {
+    background: #ee5a36;
+    border: 1px solid #1e1e1e;
+    color: #f9f9f9;
+}
+
+.portfolioContainer {
+    border-radius: 3px;
+}
+
+img {
+    margin: 5px;
+    max-width: 100%;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+
+/****/
+
+
+/* Custom button design */
+
+.fancybox-button {
+    background: transparent;
+    color: #333;
+}
+
+.fancybox-toolbar .fancybox-button:hover {
+    background: rgba(223, 223, 223, 0.5);
+    color: #c11c95;
+}
+
+
+/* Make close button a bit bigger */
+
+.fancybox-button--close {
+    padding: 7px;
+}
+
+
+/* Navigation arrows */
+
+.fancybox-navigation .fancybox-button {
+    z-index: 99996;
+}
+
+.fancybox-navigation .fancybox-button div {
+    padding: 0;
+}
+
+.fancybox-navigation .fancybox-button[disabled],
+.fancybox-navigation .fancybox-button[disabled]:hover {
+    color: #888;
+}
+
+.fancybox-navigation .fancybox-button:hover {
+    color: #000;
+}
+
+
+/* Change backdrop color */
+
+.fancybox-bg {
+    background: #eee;
+}
+
+
+/* Initially hide the caption */
+
+.caption {
+    display: none;
+}
+
+
+/* Change position and design of caption area */
+
+.fancybox-caption {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    padding: 0;
+    width: 300px;
+    background: #eee;
+    color: #333;
+    box-shadow: 0 0 20px #888;
+    z-index: 99996;
+    text-align: left;
+    /* Hide next to right edge */
+    transform: translate3d(320px, 0, 0);
+}
+
+.fancybox-caption::before {
+    display: none;
+}
+
+.fancybox-caption>div {
+    margin-top: 44px;
+    padding: 20px;
+    max-height: calc(100vh - 44px);
+    overflow: auto;
+}
+
+
+/* Overwrite the default animation */
+
+.fancybox-show-caption .fancybox-caption,
+.fancybox-caption {
+    transition: transform .2s;
+}
+
+
+/* Reveal caption */
+
+.fancybox-show-caption.fancybox-vertical-caption .fancybox-caption {
+    transform: translate3d(0, 0, 0);
+}
+
+
+/* Styling of caption content */
+
+.fancybox-caption a {
+    color: #333;
+}
+
+.fancy-nav a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #444;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    line-height: 18px;
+    text-align: center;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.fancy-nav a:hover {
+    text-decoration: none;
+}
